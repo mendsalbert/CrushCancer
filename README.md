@@ -100,11 +100,3 @@ We welcome contributions from the community. If you have any suggestions, featur
 ### License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
-
----
-
-For more information and updates, follow us on Twitter:
-
-- [Albert Mends](https://x.com/mendsalbert)
-
-Thank you for your interest in AI Cancer Care. Together, we can make a difference in the fight against cancer.
