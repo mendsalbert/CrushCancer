@@ -92,11 +92,3 @@ To get started, follow these simple steps:
    ```bash
    npm start
    ```
-
-### Contributing
-
-We welcome contributions from the community. If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
-
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
