@@ -22,7 +22,7 @@ const App = () => {
   }
 
   if (!authenticated) {
-    return <div className="bg-[#13131a]"></div>; // or a placeholder component
+    return <div className="bg-[#13131a]"></div>;
   }
 
   return (

@@ -17,7 +17,6 @@ root.render(
         theme: "dark",
         logo: "https://i.ibb.co/NntLZ1h/heart-handshake.png",
       },
-      // Create embedded wallets for users who don't have a wallet
       embeddedWallets: {
         createOnLogin: "users-without-wallets",
       },
