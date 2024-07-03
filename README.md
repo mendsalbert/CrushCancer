@@ -87,8 +87,3 @@ To get started, follow these simple steps:
    cd beatcancer
    npm install
    ```
-
-3. **Run the Application**
-   ```bash
-   npm start
-   ```
