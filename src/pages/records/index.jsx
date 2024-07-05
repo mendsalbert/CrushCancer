@@ -93,7 +93,6 @@ function Index() {
         Create Record
       </button>
 
-      {/* modal start */}
       <div
         id="hs-modal-recover-account"
         className="hs-overlay hidden fixed top-0 left-0 z-[80] w-full h-full bg-[#000000] bg-opacity-50 justify-center items-center"
@@ -151,7 +150,6 @@ function Index() {
           </button>
         </div>
       </div>
-      {/* modal end */}
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 w-full">
         {userRecords?.map((record) => (
