@@ -2,6 +2,10 @@
 
 Welcome to the AI Cancer Care project, a revolutionary AI assistant designed to provide personalized cancer care by analyzing patient data, guidelines, and medical records. Our goal is to identify screening gaps and create tailored treatment plans to improve patient outcomes.
 
+### Inspiration
+
+This project is deeply personal to me. My grandmother recently passed away from cancer, and witnessing her struggle firsthand inspired me to create a solution that could help others in similar situations. She often faced difficulties in coordinating her care and keeping track of her treatment plan, which sometimes led to missed appointments and delayed treatments. I wanted to build an application that could alleviate these challenges for other patients and their families.
+
 ### Key Features
 
 1. **Personalized Treatment Plans**
@@ -10,12 +14,7 @@ Welcome to the AI Cancer Care project, a revolutionary AI assistant designed to 
    - Identifies gaps in cancer screening and follow-up care.
    - Crafts tailored treatment plans for individual patients.
 
-2. **Zero-Knowledge Proofs**
-
-   - Utilizes zero-knowledge proofs to verify patient data or trial results without revealing the actual data.
-   - Ensures patient privacy and data security during verification processes.
-
-3. **Secure Data Sharing**
+2. **Secure Data Sharing**
    - Shares sensitive data securely using StarkNet’s encryption and cryptographic features.
    - Protects patient information while facilitating necessary data access for healthcare providers.
 
@@ -33,10 +32,6 @@ Our AI assistant addresses these challenges by:
 - Providing clear, personalized treatment recommendations.
 - Highlighting any missed screenings or necessary follow-up actions.
 - Leveraging advanced cryptographic techniques to maintain patient privacy and data security.
-
-### IPFS Integration
-
-We utilize IPFS (InterPlanetary File System) to store and share medical records securely and efficiently. This ensures data integrity and availability, enabling seamless access to patient records by authorized healthcare providers.
 
 ### How to Use
 
@@ -66,10 +61,9 @@ Our user interface is designed to provide a comprehensive view of the patient's 
 
 ### Screenshots
 
-<a href="https://ibb.co/hWHZ2Zj"><img src="https://i.ibb.co/Ph4919n/Screenshot-2024-06-26-at-9-12-01-AM.png" alt="Screenshot-2024-06-26-at-9-12-01-AM" border="0"></a>
-<img src="https://i.ibb.co/qRY3Lxs/Screenshot-2024-06-26-at-9-14-31-AM.png" alt="Screenshot-2024-06-26-at-9-14-31-AM" border="0">
-
-   <img src="https://i.ibb.co/vJPVVKZ/Screenshot-2024-06-26-at-9-12-11-AM.png" alt="Screenshot-2024-06-26-at-9-12-11-AM" border="0">
+![Screenshot](https://i.ibb.co/Ph4919n/Screenshot-2024-06-26-at-9-12-01-AM.png)
+![Screenshot](https://i.ibb.co/qRY3Lxs/Screenshot-2024-06-26-at-9-14-31-AM.png)
+![Screenshot](https://i.ibb.co/vJPVVKZ/Screenshot-2024-06-26-at-9-12-11-AM.png)
 
 ### Getting Started
 
@@ -87,3 +81,17 @@ To get started, follow these simple steps:
    cd beatcancer
    npm install
    ```
+
+### Integration with Theta Network
+
+Building this application involved integrating various advanced technologies to ensure it meets the needs of cancer patients and healthcare providers. One critical aspect was leveraging the Theta Edge Network and Llama 3 8B for the following purposes:
+
+- **Enhanced Scalability and Performance**: Deploying Llama 3 8B on Theta Edge Network improves the scalability and performance of our AI models, allowing for real-time processing of patient data.
+- **Advanced Generative AI**: By utilizing generative AI models, we can provide nuanced and precise treatment recommendations, significantly enhancing patient outcomes.
+- **Secure Data Handling**: Using Theta’s cryptographic features ensures secure data sharing and patient privacy, addressing critical concerns in healthcare.
+
+### Impact and Benefits
+
+- **Improved Patient Outcomes**: Personalized treatment plans and timely screenings lead to better health outcomes.
+- **Data Security**: StarkNet encryption ensures patient data privacy.
+- **Efficient Care Coordination**: Automated analysis and treatment recommendations streamline patient care, reducing the burden on healthcare providers.
