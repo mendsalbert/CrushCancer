@@ -95,22 +95,7 @@ export const StateContextProvider = ({ children }) => {
   //   return parsedDonations;
   // };
 
-  return (
-    <StateContext.Provider
-    // value={{
-    //   address,
-    //   contract,
-    //   connect,
-    //   createCampaign: publishCampaign,
-    //   getCampaigns,
-    //   getUserCampaigns,
-    //   donate,
-    //   getDonations,
-    // }}
-    >
-      {children}
-    </StateContext.Provider>
-  );
+  return <StateContext.Provider>{children}</StateContext.Provider>;
 };
 
 export const useStateContext = () => useContext(StateContext);
