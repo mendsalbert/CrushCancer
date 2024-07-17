@@ -59,10 +59,6 @@ export const StateContextProvider = ({ children }) => {
 
   //   // const filteredCampaigns = allCampaigns.filter(
   //   //   (campaign) => campaign.owner === address
-  //   // );
-
-  //   // return filteredCampaigns;
-  // };
 
   return <StateContext.Provider>{children}</StateContext.Provider>;
 };
