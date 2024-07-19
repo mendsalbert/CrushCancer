@@ -54,9 +54,6 @@ export const StateContextProvider = ({ children }) => {
   //   return parsedCampaings;
   // };
 
-  // const getUserCampaigns = async () => {
-  //   // const allCampaigns = await getCampaigns();
-
   return <StateContext.Provider>{children}</StateContext.Provider>;
 };
 
