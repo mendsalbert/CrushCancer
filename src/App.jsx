@@ -10,20 +10,20 @@ import { usePrivy } from "@privy-io/react-auth";
 const App = () => {
   const { ready, authenticated, login, user, logout } = usePrivy();
   const navigate = useNavigate();
-  // console.log(authenticated, user);
-  // useEffect(() => {
-  //   if (!authenticated) {
-  //     login();
-  //   }
-  // }, [authenticated, login]);
+  console.log(authenticated, user);
+  useEffect(() => {
+    if (!authenticated) {
+      login();
+    }
+  }, [authenticated, login]);
 
-  // if (!ready) {
-  //   return <div>Loading...</div>;
-  // }
+  if (!ready) {
+    return <div>Loading...</div>;
+  }
 
-  // if (!authenticated) {
-  //   return <div className="bg-[#13131a]"></div>;
-  // }
+  if (!authenticated) {
+    return <div className="bg-[#13131a]"></div>;
+  }
 
   return (
     <div className="relative sm:-8 p-4 bg-[#13131a] min-h-screen flex flex-row">
